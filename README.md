@@ -19,6 +19,10 @@ PowerShell
 Set-ExecutionPolicy RemoteSigned
 ```
 
+Software list
+---
+Software list located in [packages.config]
+
 TO DO
 ---
 Use [Boxstarter] to install everything.
@@ -27,3 +31,4 @@ Build on top of Chocolatey and NuGet and create complete Windows environments an
 
 
 [Boxstarter]:http://boxstarter.org/
+[packages.config]:https://github.com/Kwull/install-dev-win/blob/master/scripts/packages.config

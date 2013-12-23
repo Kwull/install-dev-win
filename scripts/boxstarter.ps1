@@ -59,7 +59,7 @@ cinst truecrypt
 
 Write-Host "Installation completed"
 
-git config --global user.name "Uladzimir Kazakevich"
+#git config --global user.name "Uladzimir Kazakevich"
 git config --global push.default simple
 git config --global credential.helper store
 git config --global alias.a add
@@ -81,6 +81,5 @@ Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Remote Desktop Con
 Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\XMind\XMind.exe"
 Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\AIMP3\AIMP3.exe"
 Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"
-Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\AIMP3\AIMP3.exe"
 Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\AIMP3\AIMP3.exe"
 Install-ChocolateyPinnedTaskBarItem "C:\totalcmd\TOTALCMD64.EXE"

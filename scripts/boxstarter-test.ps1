@@ -1,5 +1,5 @@
 Disable-UAC
-Enable-RemoteDesktop
+#Enable-RemoteDesktop
 Disable-InternetExplorerESC
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Move-LibraryDirectory "{374DE290-123F-4565-9164-39C4925E467B}" "d:\Downloads"

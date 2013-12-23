@@ -1,4 +1,3 @@
-Set-ExecutionPolicy Unrestricted
 Disable-UAC
 Enable-RemoteDesktop
 Disable-InternetExplorerESC
@@ -9,7 +8,6 @@ cinst TelnetClient -source windowsfeatures
 
 cinst ChocolateyGUI
 
-Set-ExecutionPolicy RemoteSigned
 Write-Host "Installation completed"
 
 # Create Powershell profile if it's not exist
@@ -47,3 +45,5 @@ Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Google\Chrome\Applic
 Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\AIMP3\AIMP3.exe"
 Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\AIMP3\AIMP3.exe"
 Install-ChocolateyPinnedTaskBarItem "C:\totalcmd\TOTALCMD64.EXE"
+
+Set-ExecutionPolicy RemoteSigned

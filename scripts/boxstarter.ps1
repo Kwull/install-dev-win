@@ -18,7 +18,7 @@ cinst skype
 
 cinst vlc
 cinst aimp
-cinst spotify
+#cinst spotify
 cinst adobereader
 cinst windjview
 

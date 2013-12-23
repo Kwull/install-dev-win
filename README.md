@@ -21,7 +21,7 @@ Set-ExecutionPolicy RemoteSigned
 
 Software list
 ---
-Software list located in [packages.config]
+Software list is in [packages.config]
 
 TO DO
 ---

@@ -6,18 +6,15 @@ Developer tools install scripts for Windows powered by Chocolatey
 Installation
 ---
 
-1. Chocolatey
-
+Chocolatey
 ```cmd
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 ```
-2. Developer tools
-
+Developer tools
 ```cmd
 cinst packages.config
 ```
-3. PowerShell
-
+PowerShell
 ```powershell
 Set-ExecutionPolicy RemoteSigned
 ```

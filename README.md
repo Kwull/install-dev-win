@@ -12,7 +12,7 @@ Chocolatey
 ```
 Developer tools
 ```cmd
-cinst packages.config
+cinst scripts\packages.config
 ```
 PowerShell
 ```powershell

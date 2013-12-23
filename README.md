@@ -1,4 +1,4 @@
-Deveoper tools for Windows
+Developer tools for Windows
 ===============
 
 Developer tools install scripts for Windows powered by Chocolatey

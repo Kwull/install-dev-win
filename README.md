@@ -9,10 +9,9 @@ Uses [Boxstarter] to install everything.
 
 Build on top of Chocolatey and NuGet and create complete Windows environments and push them to your machines with Gists from your friends or your own GitHub. Even deploy to remote machines or Hyper-V with 100% unattended installs.
 
-Use ClickOnce from IE: [BoxStarter-install]
-
+#####Use ClickOnce from IE: [BoxStarter-install]
 or
-Use Windows command line:
+#####Use Windows command line:
 ```cmd
 start http://boxstarter.org/package/nr/url?https://raw.github.com/Kwull/install-dev-win/master/scripts/boxstarter.ps1
 ```

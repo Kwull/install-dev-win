@@ -17,6 +17,20 @@ Use Windows command line:
 start http://boxstarter.org/package/nr/url?https://raw.github.com/Kwull/install-dev-win/master/scripts/boxstarter.ps1
 ```
 
+In addtional configure PowerShell
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
+
+Software list
+---
+Software list is in [Install script]
+
+
+TO DO
+---
+Autoreplace notepad by notepad++ using [VBS] and [REG] file
+
 Installation (outdated)
 ---
 
@@ -33,11 +47,6 @@ PowerShell
 Set-ExecutionPolicy RemoteSigned
 ```
 
-Software list
----
-Software list is in [packages.config]
-
-
 Useful tools
 ---
 Scott Hanselman's 2014 Ultimate Developer and Power Users Tool List for Windows: [DevTools]
@@ -45,5 +54,7 @@ Scott Hanselman's 2014 Ultimate Developer and Power Users Tool List for Windows:
 [Chocolatey]:http://chocolatey.org/
 [Boxstarter]:http://boxstarter.org/
 [BoxStarter-install]:http://boxstarter.org/package/nr/url?https://raw.github.com/Kwull/install-dev-win/master/scripts/boxstarter.ps1
-[packages.config]:https://github.com/Kwull/install-dev-win/blob/master/scripts/packages.config
+[Install script]:https://github.com/Kwull/install-dev-win/blob/master/scripts/boxstarter.ps1
 [DevTools]:http://www.hanselman.com/blog/ScottHanselmans2014UltimateDeveloperAndPowerUsersToolListForWindows.aspx
+[VBS]:https://github.com/Kwull/install-dev-win/blob/master/scripts/npp.vbs
+[REG]:https://github.com/Kwull/install-dev-win/blob/master/scripts/notepad_replace.reg

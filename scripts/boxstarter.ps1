@@ -23,6 +23,7 @@ cinst adobereader
 cinst windjview
 
 cinst TotalCommander
+cinst freefilesync
 cinst sysinternals
 cinst f.lux
 cinst TeraCopy

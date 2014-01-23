@@ -38,7 +38,6 @@ cinst notepadplusplus.install
 cinst SublimeText3
 cinst paint.net
 cinst xmind
-cinst baretail
 
 cinst putty.install
 cinst winscp

@@ -78,7 +78,7 @@ git config --global alias.p pull
 git config --global alias.rb rebase
 git config --global alias.sh show
 git config --global merge.tool p4merge
-git config --global core.editor "notepad.exe -multiInst -notabbar -nosession -noPlugin"
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
 Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles\Paint.NET\PaintDotNet.exe"
 Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Fiddler2\Fiddler.exe"

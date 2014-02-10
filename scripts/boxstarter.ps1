@@ -42,7 +42,8 @@ cinst xmind
 cinst putty.install
 cinst winscp
 
-cinst winmerge
+cinst p4merge
+#cinst winmerge
 cinst linqpad4
 cinst dotPeek
 cinst fiddler4
@@ -62,6 +63,7 @@ cinst truecrypt
 Write-Host "Installation completed"
 
 #git config --global user.name "Uladzimir Kazakevich"
+git config --global core.autocrlf false
 git config --global push.default simple
 git config --global credential.helper store
 git config --global alias.a add
@@ -75,6 +77,8 @@ git config --global alias.l log
 git config --global alias.p pull
 git config --global alias.rb rebase
 git config --global alias.sh show
+git config --global merge.tool p4merge
+git config --global core.editor "notepad.exe -multiInst -notabbar -nosession -noPlugin"
 
 Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles\Paint.NET\PaintDotNet.exe"
 Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Fiddler2\Fiddler.exe"

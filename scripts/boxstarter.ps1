@@ -78,7 +78,11 @@ git config --global alias.p pull
 git config --global alias.rb rebase
 git config --global alias.sh show
 git config --global merge.tool p4merge
+git config --global mergetool.prompt false
+git config --global mergetool.keepBackup false
+git config --global mergetool.trustExitCode true
 git config --global diff.tool p4merge
+git config --global difftool.prompt false
 git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
 Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles\Paint.NET\PaintDotNet.exe"

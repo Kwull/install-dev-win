@@ -1,12 +1,12 @@
-Disable-UAC
+#Disable-UAC
 Disable-InternetExplorerESC
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Move-LibraryDirectory "{374DE290-123F-4565-9164-39C4925E467B}" "d:\Downloads"
+#Move-LibraryDirectory "{374DE290-123F-4565-9164-39C4925E467B}" "d:\Downloads"
 
 cinst TelnetClient -source windowsfeatures
-cinst Microsoft-Hyper-V-All -source windowsfeatures
+#cinst Microsoft-Hyper-V-All -source windowsfeatures
 
-cinst ChocolateyGUI
+#cinst ChocolateyGUI
 cinst webpicommandline
 
 cinst GoogleChrome
@@ -58,7 +58,7 @@ cinst git
 cinst poshgit
 cinst ScriptCs
 
-cinst truecrypt
+#cinst truecrypt
 
 Write-Host "Installation completed"
 

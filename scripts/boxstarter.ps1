@@ -60,6 +60,9 @@ cinst ScriptCs
 
 #cinst truecrypt
 
+cinst virtualbox
+cinst vagrant
+
 Write-Host "Installation completed"
 
 #git config --global user.name "Uladzimir Kazakevich"

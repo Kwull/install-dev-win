@@ -11,35 +11,36 @@ cinst webpicommandline
 
 cinst GoogleChrome
 cinst javaruntime 
-cinst flashplayerplugin 
-cinst Silverlight 
+#cinst flashplayerplugin 
+#cinst Silverlight 
 cinst dropbox
 cinst skype
+cinst docker
 
 cinst vlc
 cinst aimp
 #cinst spotify
 cinst adobereader
-cinst windjview
+#cinst windjview
 
 cinst TotalCommander
-cinst freefilesync
+#cinst freefilesync
 cinst sysinternals
 cinst f.lux
 cinst TeraCopy
 cinst gow
-cinst rdcman
-cinst lockhunter
+#cinst rdcman
+#cinst lockhunter
 cinst windirstat
 cinst Wget
 cinst curl
-cinst 7zip.install
-cinst notepadplusplus.install
-cinst SublimeText3
+cinst 7zip
+cinst notepadplusplus
+#cinst SublimeText3
 cinst paint.net
-cinst xmind
+#cinst xmind
 
-cinst putty.install
+cinst putty
 cinst winscp
 
 cinst p4merge
@@ -49,10 +50,10 @@ cinst dotPeek
 cinst fiddler4
 cinst windbg
 cinst baretail
-cinst nodejs.install
+cinst nodejs
 cinst AzureStorageExplorer
 
-cinst slik.svn
+#cinst slik.svn
 cinst tortoisesvn
 cinst git
 cinst poshgit
@@ -60,8 +61,8 @@ cinst ScriptCs
 
 #cinst truecrypt
 
-cinst virtualbox
-cinst vagrant
+#cinst virtualbox
+#cinst vagrant
 
 Write-Host "Installation completed"
 

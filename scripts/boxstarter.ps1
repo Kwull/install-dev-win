@@ -12,10 +12,14 @@ cinst webpicommandline
 cinst GoogleChrome
 cinst javaruntime 
 #cinst flashplayerplugin 
-#cinst Silverlight 
 cinst dropbox
 cinst skype
-cinst docker
+
+choco install nodejs.install -y
+choco install docker -y
+choco install python -y
+choco install openssl.light -y
+npm install -g azure-cli
 
 cinst vlc
 cinst aimp
@@ -50,7 +54,6 @@ cinst dotPeek
 cinst fiddler4
 cinst windbg
 cinst baretail
-cinst nodejs
 cinst AzureStorageExplorer
 
 #cinst slik.svn

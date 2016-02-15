@@ -9,6 +9,8 @@ cinst TelnetClient -source windowsfeatures
 #cinst ChocolateyGUI
 cinst webpicommandline
 
+choco install telegram.install
+
 cinst GoogleChrome
 cinst javaruntime 
 #cinst flashplayerplugin 

@@ -8,17 +8,23 @@ cinst TelnetClient -source windowsfeatures
 
 #cinst webpicommandline
 
-#editors
+#editors and viewers
 choco install notepadplusplus.install -y
+choco install paint.net -y
+choco install adobereader -y
 
 #web 
 choco install googlechrome -y
 choco install jre8 -y
 choco install flashplayerplugin -y
 
-#js dev tools
+#dev tools
+choco install fiddler4 -y
 choco install git.install -y
+choco install poshgit -y
 choco install nodejs.install -y
+#npm install -g azure-cli
+choco install python -y
 
 #IM
 choco install skype -y
@@ -28,39 +34,24 @@ choco install telegram.install -y
 choco install dropbox -y
 choco install sysinternals -y
 choco install putty -y
-choco install adobereader -y
+choco install winscp.install -y
 choco install 7zip.install -y
-
+choco install curl -y
+choco install wget -y
+choco install windirstat -y
 
 ########
-cinst dropbox
-
-
 # choco install docker -y
-choco install python -y
 choco install openssl.light -y
-npm install -g azure-cli
 
-cinst vlc
-cinst aimp
 #cinst spotify
-#cinst windjview
 
 cinst TotalCommander
 #cinst freefilesync
 cinst f.lux
 cinst TeraCopy
 cinst gow
-#cinst rdcman
-#cinst lockhunter
-cinst windirstat
-cinst Wget
-cinst curl
-#cinst SublimeText3
-cinst paint.net
 #cinst xmind
-
-cinst winscp
 
 cinst p4merge
 #cinst winmerge
@@ -71,15 +62,8 @@ cinst windbg
 cinst baretail
 cinst AzureStorageExplorer
 
-#cinst slik.svn
-cinst tortoisesvn
 cinst poshgit
 cinst ScriptCs
-
-#cinst truecrypt
-
-#cinst virtualbox
-#cinst vagrant
 
 Write-Host "Installation completed"
 

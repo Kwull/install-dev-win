@@ -11,6 +11,7 @@ cinst TelnetClient -source windowsfeatures
 #editors and viewers
 choco install notepadplusplus.install -y
 choco install paint.net -y
+choco install fsviewer -y
 choco install adobereader -y
 
 #web 
@@ -25,6 +26,7 @@ choco install poshgit -y
 choco install nodejs.install -y
 #npm install -g azure-cli
 choco install python -y
+choco install p4merge -y
 
 #IM
 choco install skype -y
@@ -34,11 +36,12 @@ choco install telegram.install -y
 choco install dropbox -y
 choco install sysinternals -y
 choco install putty -y
-choco install winscp.install -y
+choco install winscp -y
 choco install 7zip.install -y
 choco install curl -y
 choco install wget -y
 choco install windirstat -y
+choco install TeraCopy -y
 
 ########
 # choco install docker -y
@@ -49,21 +52,15 @@ choco install openssl.light -y
 cinst TotalCommander
 #cinst freefilesync
 cinst f.lux
-cinst TeraCopy
 cinst gow
 #cinst xmind
 
-cinst p4merge
 #cinst winmerge
 cinst linqpad4
 cinst dotPeek
-cinst fiddler4
 cinst windbg
-cinst baretail
+#cinst baretail
 cinst AzureStorageExplorer
-
-cinst poshgit
-cinst ScriptCs
 
 Write-Host "Installation completed"
 

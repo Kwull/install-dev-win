@@ -1,24 +1,42 @@
 #Disable-UAC
-Disable-InternetExplorerESC
+#Disable-InternetExplorerESC
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-#Move-LibraryDirectory "{374DE290-123F-4565-9164-39C4925E467B}" "d:\Downloads"
+#Move-LibraryDirectory "{374DE290-123F-4565-9164-39C4925E467B}" "c:\!Work\Downloads"
 
 cinst TelnetClient -source windowsfeatures
 #cinst Microsoft-Hyper-V-All -source windowsfeatures
 
-#cinst ChocolateyGUI
-cinst webpicommandline
+#cinst webpicommandline
 
-choco install telegram.install
+#editors
+choco install notepadplusplus.install -y
 
-cinst GoogleChrome
-cinst javaruntime 
-#cinst flashplayerplugin 
-cinst dropbox
-cinst skype
+#web 
+choco install googlechrome -y
+choco install jre8 -y
+choco install flashplayerplugin -y
 
+#js dev tools
+choco install git.install -y
 choco install nodejs.install -y
-choco install docker -y
+
+#IM
+choco install skype -y
+choco install telegram.install -y
+
+#tools
+choco install dropbox -y
+choco install sysinternals -y
+choco install putty -y
+choco install adobereader -y
+choco install 7zip.install -y
+
+
+########
+cinst dropbox
+
+
+# choco install docker -y
 choco install python -y
 choco install openssl.light -y
 npm install -g azure-cli
@@ -26,12 +44,10 @@ npm install -g azure-cli
 cinst vlc
 cinst aimp
 #cinst spotify
-cinst adobereader
 #cinst windjview
 
 cinst TotalCommander
 #cinst freefilesync
-cinst sysinternals
 cinst f.lux
 cinst TeraCopy
 cinst gow
@@ -40,13 +56,10 @@ cinst gow
 cinst windirstat
 cinst Wget
 cinst curl
-cinst 7zip
-cinst notepadplusplus
 #cinst SublimeText3
 cinst paint.net
 #cinst xmind
 
-cinst putty
 cinst winscp
 
 cinst p4merge
@@ -60,7 +73,6 @@ cinst AzureStorageExplorer
 
 #cinst slik.svn
 cinst tortoisesvn
-cinst git
 cinst poshgit
 cinst ScriptCs
 
